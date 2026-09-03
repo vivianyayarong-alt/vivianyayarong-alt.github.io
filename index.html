@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name - Homepage</title>
-  <meta name="description" content="A minimal academic homepage template for researchers, students, and creators.">
-  <meta name="keywords" content="academic homepage, personal website, portfolio, researcher, student">
+  <title>Rong Xiaoxi - Homepage</title>
+  <meta name="description" content="Rong Xiaoxi - Smart & interactive textiles, wearable technology, and human-computer interaction.">
+  <meta name="keywords" content="smart textiles, wearable technology, human-computer interaction, tangible interaction, fashion technology, PolyU">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,17 +17,26 @@
   <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="assets/css/font_sans_serif.css">
-  <link rel="stylesheet" href="assets/css/theme-luka.css">
+  <link rel="stylesheet" href="assets/css/theme-luka.css?v=7">
 </head>
-<body class="theme-luka">
+<body class="theme-luka" id="top">
   <nav class="top-nav">
     <div class="nav-container">
-      <div class="nav-left">
-        <a href="./">Home</a>
-      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#top" class="nav-home active">Homepage</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
       <div class="nav-right">
         <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
           <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="navToggle" class="nav-toggle" title="Toggle menu" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
         </button>
       </div>
     </div>
@@ -37,25 +46,16 @@
     <header class="sidebar">
       <div class="profile-card">
         <a class="image avatar">
-          <img src="assets/img/avatar.svg" alt="Profile avatar">
+          <img src="assets/img/avatar.jpg" alt="Profile avatar">
         </a>
 
-        <h1 class="site-name">Your Name</h1>
-        <p class="site-email">your.email@example.com</p>
+        <h1 class="site-name">Rong Xiaoxi</h1>
+        <p class="site-email">23098742d@connect.polyu.hk</p>
 
         <div class="social-icons">
-          <a href="mailto:your.email@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/yourname" title="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://yourblog.example.com" title="Blog"><i class="fa-solid fa-rss"></i></a>
-        </div>
-
-        <div class="visitor-card">
-          <div class="visitor-card-title">Visitor Map</div>
-          <div class="visitor-card-body">
-            Replace this card with your own ClustrMaps image or analytics widget.
-          </div>
+          <a href="mailto:23098742d@connect.polyu.hk" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/vivianyayarong-alt" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://xhslink.cn/m/4eX40i42QVw" title="Xiaohongshu" target="_blank" rel="noopener"><img src="assets/img/xiaohongshu-icon.png" alt="Xiaohongshu" style="width:20px;height:20px;border-radius:6px;"></a>
         </div>
       </div>
     </header>
@@ -64,9 +64,9 @@
       <div class="section" id="about">
         <h2 class="section-title">About Me</h2>
         <div class="section-body">
-          <p>Hello! I am <strong>Your Name</strong>, a student / researcher / engineer working on topics that matter to you. This template is designed to make personal academic websites clean, readable, and easy to adapt.</p>
-          <p>You can use this section to briefly introduce your background, research interests, and current affiliations. Keep it concise and personal.</p>
-          <p><strong><a href="#" target="_blank" rel="noopener">Download my CV</a></strong> (replace this link with your resume)</p>
+          <p>I am an undergraduate student in Fashion Innovation and Technology at The Hong Kong Polytechnic University. My research is rooted in <strong>Smart and Interactive Textiles</strong>, with a core focus on <strong>Wearable Technology</strong> and <strong>Human-Computer Interaction</strong>.</p>
+          <p>My research philosophy centers on grounding interaction in genuine sensory experience. I treat textiles and fibers — from magnetically actuated structures to conductive architectures — as the interface itself, extending interaction beyond vision into touch and other underexplored senses. Looking forward, my goal is to develop wearable systems that are intelligent, adaptive, and effortless to use — technology that disappears into daily life rather than demanding attention from it.</p>
+          <p>Outside research, I'm drawn to photography, design, and AI-assisted art-making. I'm currently applying for research-based Master's / PhD programs for Fall 2027.</p>
         </div>
       </div>
 
@@ -75,11 +75,12 @@
         <div class="section-body">
           <div class="card">
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+              <img src="assets/img/polyu-logo.png" alt="PolyU logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Your University</strong></p>
-                <p class="exp-detail">B.S. / M.S. / Ph.D. in Your Major</p>
-                <p class="exp-period">2022 - 2026</p>
+                <p class="exp-title"><strong>The Hong Kong Polytechnic University</strong></p>
+                <p class="exp-detail">B.A. in Fashion and Textile, Major in Fashion Innovation and Technology</p>
+                <p class="exp-detail">CGPA: 3.68 / 4.30</p>
+                <p class="exp-period">Sep. 2023 - May 2027</p>
               </div>
             </div>
           </div>
@@ -91,24 +92,69 @@
         <div class="section-body">
           <div class="card timeline-item">
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+              <img src="assets/img/uwaterloo-logo.png" alt="University of Waterloo logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Research Lab / Company Name</strong></p>
-                <p class="exp-detail">Research Intern / Engineer / Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2025 - Present</p>
+                <p class="exp-title"><strong>University of Waterloo</strong> — Dept. of Mechanical and Mechatronics Engineering</p>
+                <p class="exp-detail">Undergraduate Research Intern, Interdisciplinary Fluid Physics Lab</p>
+                <p class="exp-detail"><em>Advisor:</em> Prof. Zhao Pan</p>
+                <p class="exp-period">May - Aug. 2026</p>
               </div>
             </div>
           </div>
 
           <div class="card timeline-item">
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+              <img src="assets/img/polyu-logo.png" alt="PolyU logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Previous Institution</strong></p>
-                <p class="exp-detail">Research Intern / Teaching Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2024 - 2025</p>
+                <p class="exp-title"><strong>The Hong Kong Polytechnic University</strong> — School of Fashion and Textiles</p>
+                <p class="exp-detail">Undergraduate Researcher</p>
+                <p class="exp-detail"><em>Advisor:</em> Prof. Junhong Pu</p>
+                <p class="exp-period">Mar. 2026 - Present</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card timeline-item">
+            <div class="experience-item">
+              <img src="assets/img/codecreate-logo.png" alt="Code Create logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>Code Create</strong> (AiDA AI Fashion Design)</p>
+                <p class="exp-detail">Creative Marketing Freelancer</p>
+                <p class="exp-period">Aug. - Oct. 2025</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card timeline-item">
+            <div class="experience-item">
+              <img src="assets/img/innoxsz-logo.png" alt="Shenzhen Institute of Scientific and Innovation logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>HUFU</strong> (Shenzhen Institute of Scientific and Innovation)</p>
+                <p class="exp-detail">Interaction Design Intern</p>
+                <p class="exp-period">Jul. - Aug. 2025</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card timeline-item">
+            <div class="experience-item">
+              <img src="assets/img/innoxsz-logo.png" alt="Shenzhen Institute of Scientific and Innovation logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>Mengma</strong> (Shenzhen Institute of Scientific and Innovation)</p>
+                <p class="exp-detail">Product Design Intern</p>
+                <p class="exp-period">Jun. 2025</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card timeline-item">
+            <div class="experience-item">
+              <img src="assets/img/polyu-logo.png" alt="PolyU logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>The Hong Kong Polytechnic University</strong> — Research Institute for Intelligent Wearable Systems</p>
+                <p class="exp-detail">Student Research Assistant, Vincent and Lily Woo Endowed Professorship</p>
+                <p class="exp-detail"><em>Advisor:</em> Prof. Xiaoming Tao</p>
+                <p class="exp-period">Sep. 2024 - Jun. 2025</p>
               </div>
             </div>
           </div>
@@ -118,30 +164,51 @@
       <div class="section" id="projects">
         <h2 class="section-title">Projects</h2>
         <div class="section-body">
-          <div class="card project-card">
-            <a href="https://github.com/yourname/project-name">Project Name</a>: A short one-line summary describing what this project does and why it matters.
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="publications">
-        <h2 class="section-title">Publications</h2>
-        <div class="section-body">
-          <div class="publications">
-            <ol class="bibliography">
-              <li>
-                <div class="pub-row">
-                  <div class="pub-content">
-                    <div class="title">Paper Title Goes Here</div>
-                    <div class="author"><strong>Your Name</strong>, Coauthor A, Coauthor B</div>
-                    <div class="periodical"><em><strong>Conference / Journal / arXiv</strong></em></div>
-                    <div class="links">
-                      <a href="#">Paper</a> / <a href="#">Code</a> / <a href="#">Project</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ol>
+          <div class="projects-grid">
+            <div class="card project-card">
+              <img src="assets/img/project-auraflow.jpg?v=2" alt="AuraFlow" class="project-image">
+              <div class="project-text">
+                <strong>AuraFlow</strong> (Personal Project): A wearable anxiety-relief vest integrating HRV/ECG sensing, vibro-acoustic singing-bowl resonance, and airbag-driven haptic breathing guidance, powered in part by body-heat energy harvesting (TEG); paired with a companion app for AI-guided mindfulness modes and emergency alerts.
+                <button class="case-trigger" data-case="auraflow">View full project →</button>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img src="assets/img/project-livingsilk.jpg" alt="Living Silk" class="project-image">
+              <div class="project-text"><strong>Living Silk</strong>: A magnetically actuated silk prototype, designed for interactive heritage-revitalization demonstrations in museum settings, that animates traditional Chinese embroidery motifs without embedding rigid electronics, developed with digitally embroidered magnetic-yarn architectures.</div>
+            </div>
+            <div class="card project-card">
+              <img src="assets/img/project-hufu.jpg?v=2" alt="PatPatDots (HUFU)" class="project-image">
+              <div class="project-text">
+                <strong>PatPatDots</strong> (HUFU): UI/UX and interaction design for an acupoint-tapping haptic vest with 12 independent haptic dots for gamified movement, reaction training, and somatic wellness, showcased at CES.
+                <a class="project-link" href="https://interactiveclothes.com/home-2-2/" target="_blank" rel="noopener">View full project →</a>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img src="assets/img/project-modular.jpg" alt="Wearable Electronics" class="project-image">
+              <div class="project-text"><strong>Wearable Electronics</strong>: Reconfigurable, detachable garment structures with laser-cut conductive-fabric components, focused on design detailing and embedded LED elements, with 10+ prototypes exhibited at the Global Sources Hong Kong Expo.</div>
+            </div>
+            <div class="card project-card">
+              <img src="assets/img/project-droplets.jpg" alt="Droplets on Fibers" class="project-image">
+              <div class="project-text"><strong>Droplets on Fibers</strong>: Physics, AI, and Art — studying droplet–fiber adhesion and fluid dynamics shaken in a martini glass, translated into a scientific visualization video submitted to the APS Division of Fluid Dynamics Gallery of Fluid Motion, and now extending into human-food interaction.</div>
+            </div>
+            <div class="card project-card">
+              <img src="assets/img/project-fauseng.jpg" alt="浮城 · Fauseng" class="project-image">
+              <div class="project-text">
+                <strong>浮城 · Fauseng (Floating City)</strong>: A narrative puzzle game exploring the language barriers faced by newcomers to Hong Kong, translating the experience of linguistic "aphasia" into pixel-art scenes and a Cantonese slang-decoding system built in Unity — awarded Second Prize at the Hong Kong Digital Art Competition (HKDADC).
+                <button class="case-trigger" data-case="fauseng">View full project →</button>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img src="assets/img/project-memora.jpg" alt="Memora" class="project-image">
+              <div class="project-text">
+                <strong>Memora</strong> (Personal Project): A service system for old-clothes recycling and emotional memorialization — combining a community recycling exchange, a keepsake-making process, and an AR memorial layer that lets people revisit a fragment of meaning after letting a garment go.
+                <button class="case-trigger" data-case="memora">View full project →</button>
+              </div>
+            </div>
+            <div class="card project-card">
+              <img src="assets/img/project-mengma.jpg" alt="Rehabilitation Shoulder Brace" class="project-image">
+              <div class="project-text"><strong>Rehabilitation Shoulder Brace</strong> (Mengma): Product appearance design and material testing for a sports rehabilitation shoulder brace, from digital prototyping to final iteration.</div>
+            </div>
           </div>
         </div>
       </div>
@@ -151,25 +218,46 @@
         <div class="section-body">
           <div class="awards-grid">
             <div class="award-item">
-              <span class="award-icon">🏅</span>
-              <div class="award-text"><strong>Award Name</strong></div>
+              <span class="award-icon">🥈</span>
+              <div class="award-text"><strong>Second Prize</strong>, Hong Kong Digital Art Competition (HKDADC) — 2026</div>
             </div>
             <div class="award-item">
-              <span class="award-icon">🥇</span>
-              <div class="award-text"><strong>Competition / Scholarship / Honor</strong></div>
+              <span class="award-icon">🏆</span>
+              <div class="award-text"><strong>Best Cross-Cultural Dialogue Award</strong>, HKUST AI Film Festival — 2026</div>
+            </div>
+            <div class="award-item">
+              <span class="award-icon">🎓</span>
+              <div class="award-text"><strong>Dean's Honours List</strong>, School of Fashion and Textiles, PolyU — 2024/2025</div>
+            </div>
+            <div class="award-item">
+              <span class="award-icon">🏅</span>
+              <div class="award-text"><strong>Student Support Scholarship</strong>, The Hong Kong Polytechnic University — 2024</div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="section-body">
+          <p>Feel free to reach out — <a href="mailto:23098742d@connect.polyu.hk">23098742d@connect.polyu.hk</a></p>
         </div>
       </div>
     </section>
 
     <footer class="site-footer">
       <p>
-        &copy; 2026 Your Name. All rights reserved.
+        &copy; 2026 Rong Xiaoxi. All rights reserved.
         <br>
         <span class="template-credit"><a href="https://github.com/wzsyyh/luka-homepage-template">Luka Homepage Template</a> by <a href="https://wzsyyh.github.io/">Yuheng Yang</a></span>
       </p>
     </footer>
+  </div>
+
+  <div class="case-modal" id="caseModal" aria-hidden="true">
+    <button class="case-modal-close" id="caseModalClose" aria-label="Close">&times;</button>
+    <div class="case-modal-counter" id="caseModalCounter"></div>
+    <div class="case-modal-scroll" id="caseModalScroll"></div>
   </div>
 
   <script src="assets/js/scale.fix.js"></script>
@@ -212,6 +300,114 @@
           el.classList.add('visible');
         });
       }
+
+      // Mobile nav toggle
+      const navToggle = document.getElementById('navToggle');
+      const navLinks = document.getElementById('navLinks');
+      navToggle.addEventListener('click', function() {
+        navLinks.classList.toggle('open');
+      });
+      navLinks.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          navLinks.classList.remove('open');
+        });
+      });
+
+      // Scroll-spy: highlight the nav link for the section in view
+      const navAnchorLinks = Array.from(navLinks.querySelectorAll('a')).filter(function(a) {
+        return a.getAttribute('href').startsWith('#') && a.getAttribute('href') !== '#top';
+      });
+      const homeLink = navLinks.querySelector('.nav-home');
+      const sections = navAnchorLinks.map(function(a) {
+        return document.querySelector(a.getAttribute('href'));
+      }).filter(Boolean);
+
+      function setActiveLink(id) {
+        navAnchorLinks.forEach(function(a) {
+          a.classList.toggle('active', a.getAttribute('href') === '#' + id);
+        });
+        if (id) homeLink.classList.remove('active');
+      }
+
+      if ('IntersectionObserver' in window && sections.length) {
+        const spy = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              setActiveLink(entry.target.id);
+            }
+          });
+        }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+
+        sections.forEach(function(s) { spy.observe(s); });
+
+        window.addEventListener('scroll', function() {
+          if (window.scrollY < 80) {
+            navAnchorLinks.forEach(function(a) { a.classList.remove('active'); });
+            homeLink.classList.add('active');
+          }
+        }, { passive: true });
+      }
+
+      // Case study modal
+      var caseData = {
+        auraflow: ['assets/img/case-auraflow/p1.jpg','assets/img/case-auraflow/p2.jpg','assets/img/case-auraflow/p3.jpg','assets/img/case-auraflow/p4.jpg','assets/img/case-auraflow/p5.jpg','assets/img/case-auraflow/p6.jpg','assets/img/case-auraflow/p7.jpg','assets/img/case-auraflow/p8.jpg'],
+        fauseng: ['assets/img/case-fauseng/p1.jpg','assets/img/case-fauseng/p2.jpg','assets/img/case-fauseng/p3.jpg','assets/img/case-fauseng/p4.jpg','assets/img/case-fauseng/p5.jpg','assets/img/case-fauseng/p6.jpg','assets/img/case-fauseng/p7.jpg'],
+        memora: ['assets/img/case-memora/p1.jpg','assets/img/case-memora/p2.jpg','assets/img/case-memora/p3.jpg','assets/img/case-memora/p4.jpg','assets/img/case-memora/p5.jpg','assets/img/case-memora/p6.jpg']
+      };
+      var modal = document.getElementById('caseModal');
+      var modalScroll = document.getElementById('caseModalScroll');
+      var modalCounter = document.getElementById('caseModalCounter');
+      var caseObserver = null;
+
+      function openCase(name) {
+        var pages = caseData[name];
+        if (!pages) return;
+
+        modalScroll.innerHTML = '';
+        pages.forEach(function(src, i) {
+          var img = document.createElement('img');
+          img.src = src;
+          img.alt = name + ' — page ' + (i + 1);
+          img.dataset.index = i;
+          modalScroll.appendChild(img);
+        });
+
+        modalCounter.textContent = '1 / ' + pages.length;
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('case-modal-lock');
+        modal.scrollTop = 0;
+
+        if (caseObserver) caseObserver.disconnect();
+        var caseRatios = {};
+        caseObserver = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            caseRatios[entry.target.dataset.index] = entry.isIntersecting ? entry.intersectionRatio : 0;
+          });
+          var bestIdx = 0, bestRatio = -1;
+          Object.keys(caseRatios).forEach(function(k) {
+            if (caseRatios[k] > bestRatio) { bestRatio = caseRatios[k]; bestIdx = parseInt(k, 10); }
+          });
+          modalCounter.textContent = (bestIdx + 1) + ' / ' + pages.length;
+        }, { root: modal, threshold: [0, 0.1, 0.25, 0.5, 0.75, 1] });
+        Array.from(modalScroll.children).forEach(function(img) { caseObserver.observe(img); });
+      }
+
+      function closeCase() {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('case-modal-lock');
+        if (caseObserver) caseObserver.disconnect();
+      }
+
+      document.querySelectorAll('.case-trigger').forEach(function(btn) {
+        btn.addEventListener('click', function() { openCase(btn.dataset.case); });
+      });
+      document.getElementById('caseModalClose').addEventListener('click', closeCase);
+      document.addEventListener('keydown', function(e) {
+        if (!modal.classList.contains('open')) return;
+        if (e.key === 'Escape') closeCase();
+      });
     })();
   </script>
 </body>
